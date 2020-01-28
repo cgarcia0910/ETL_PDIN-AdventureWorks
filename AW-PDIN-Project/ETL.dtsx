@@ -11,8 +11,8 @@
   DTS:LocaleID="3082"
   DTS:ObjectName="ETL"
   DTS:PackageType="5"
-  DTS:VersionBuild="58"
-  DTS:VersionGUID="{543C2F37-5BBD-4785-A3A8-4192234F90FC}">
+  DTS:VersionBuild="61"
+  DTS:VersionGUID="{10649DBB-6FC0-43BD-80FA-3740A01785DC}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -48,15 +48,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="DateKey"
-              DTS:DTSID="{7721A106-BDC8-4BC9-A9AF-BCAD62AB3270}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="133"
-              DTS:TextQualified="True"
-              DTS:ObjectName="FullDateAlternateKey"
-              DTS:DTSID="{DECEE065-59A4-4812-86F8-D7307B0B7A2F}"
+              DTS:DTSID="{B022D481-EF37-49DE-A065-FF54FE3FC437}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -64,7 +56,7 @@
               DTS:DataType="17"
               DTS:TextQualified="True"
               DTS:ObjectName="DayNumberOfWeek"
-              DTS:DTSID="{743A28B0-9AEA-4AFE-A25B-04C3C2174A7F}"
+              DTS:DTSID="{1B4E8AEA-0915-450E-B167-728F5017A38F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -73,7 +65,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="EnglishDayNameOfWeek"
-              DTS:DTSID="{377D8F35-04FD-4686-9025-10340E14AE05}"
+              DTS:DTSID="{91CEC580-3926-48A1-A516-F14FFE568E08}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -82,16 +74,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="SpanishDayNameOfWeek"
-              DTS:DTSID="{3033BDB4-9DF7-4A5F-B4B2-D16890AC4FB1}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="10"
-              DTS:DataType="130"
-              DTS:TextQualified="True"
-              DTS:ObjectName="FrenchDayNameOfWeek"
-              DTS:DTSID="{EBACA759-6CB4-4691-833F-41EC452D4229}"
+              DTS:DTSID="{1AC4FC6B-E8E1-4723-A8C3-CE3879FB16E1}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -99,7 +82,7 @@
               DTS:DataType="17"
               DTS:TextQualified="True"
               DTS:ObjectName="DayNumberOfMonth"
-              DTS:DTSID="{9417CB15-FA59-4210-B364-21681469DA92}"
+              DTS:DTSID="{72332247-9326-4C25-AC50-50FFEA9C0872}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -107,7 +90,7 @@
               DTS:DataType="2"
               DTS:TextQualified="True"
               DTS:ObjectName="DayNumberOfYear"
-              DTS:DTSID="{51BE3EC1-EC13-43E8-9820-60D92C33091C}"
+              DTS:DTSID="{57EBF22B-F47F-49B4-9071-79AE5BCE9E6C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -115,7 +98,7 @@
               DTS:DataType="17"
               DTS:TextQualified="True"
               DTS:ObjectName="WeekNumberOfYear"
-              DTS:DTSID="{3D6519B6-FA2B-43A7-AF37-DAA21733633C}"
+              DTS:DTSID="{72D76428-560B-48F0-92DF-07BACCF319BB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -124,7 +107,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="EnglishMonthName"
-              DTS:DTSID="{0E3EB7CF-1B6A-4D44-B6D8-DBD883EBBFF8}"
+              DTS:DTSID="{8804CD70-655F-46F9-8111-C6156A0891B5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -133,24 +116,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="SpanishMonthName"
-              DTS:DTSID="{EE2BCD6A-D5EE-4769-8D37-754EB99A3763}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="10"
-              DTS:DataType="130"
-              DTS:TextQualified="True"
-              DTS:ObjectName="FrenchMonthName"
-              DTS:DTSID="{6A1F82C2-0250-4E69-BEC1-C8863DC5D277}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="17"
-              DTS:TextQualified="True"
-              DTS:ObjectName="MonthNumberOfYear"
-              DTS:DTSID="{49E38C62-39C6-4292-8139-B93BCF23E9B4}"
+              DTS:DTSID="{216AA14C-16DD-487A-AD96-008416514DA5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -158,7 +124,7 @@
               DTS:DataType="17"
               DTS:TextQualified="True"
               DTS:ObjectName="CalendarQuarter"
-              DTS:DTSID="{B8567AC3-BE9F-43CC-ACB6-201FF063A9AA}"
+              DTS:DTSID="{52F39700-144D-4392-82DE-5F10B3BD1EA5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -166,39 +132,15 @@
               DTS:DataType="2"
               DTS:TextQualified="True"
               DTS:ObjectName="CalendarYear"
-              DTS:DTSID="{DCCF6562-D648-4594-8EC4-6D814AD91C8B}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="17"
-              DTS:TextQualified="True"
-              DTS:ObjectName="CalendarSemester"
-              DTS:DTSID="{E2B934F7-1B17-4FDA-84E1-9F074C203688}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="17"
-              DTS:TextQualified="True"
-              DTS:ObjectName="FiscalQuarter"
-              DTS:DTSID="{9DE31FF5-DF79-4B94-9BE3-EAFF8B477AB5}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="2"
-              DTS:TextQualified="True"
-              DTS:ObjectName="FiscalYear"
-              DTS:DTSID="{70EA7E04-E5EE-4286-B3CE-BABCFD3136DE}"
+              DTS:DTSID="{A53C7625-344A-4C09-88EA-76AE4D735156}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x000D__x000A_"
               DTS:DataType="17"
               DTS:TextQualified="True"
-              DTS:ObjectName="FiscalSemester"
-              DTS:DTSID="{A5DEB2F9-1B18-4816-B7D0-363C5DD104CA}"
+              DTS:ObjectName="CalendarSemester"
+              DTS:DTSID="{DB1CF9C4-1ACD-41EB-A6BD-3D83BDD867A7}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -245,6 +187,98 @@
               DTS:TextQualified="True"
               DTS:ObjectName="Class"
               DTS:DTSID="{227040DA-3B9F-44E0-893F-A2547B393856}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[TH_RRHH]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{2CE157CA-B6E9-4D02-917D-FE3316FF46CE}"
+      DTS:ObjectName="TH_RRHH">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="3082"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\Usuario12\source\repos\AW-PDIN-Project\TH_RRHH.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="EmployeeKey"
+              DTS:DTSID="{450B9C9F-4A39-4870-92F0-38BA87992370}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="SalesTerritoryKey"
+              DTS:DTSID="{0734679B-B006-42AC-BBFE-8ED510124B8E}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="133"
+              DTS:TextQualified="True"
+              DTS:ObjectName="BirthDate"
+              DTS:DTSID="{B60058A7-6BBC-4799-A76D-A0732379C6BB}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="1"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Gender"
+              DTS:DTSID="{DE4BBBAE-DD5B-4E2E-80BB-A89D207865A4}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="6"
+              DTS:TextQualified="True"
+              DTS:ObjectName="BaseRate"
+              DTS:DTSID="{0B084929-FAD4-453D-B5C1-69AD18E29426}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="2"
+              DTS:TextQualified="True"
+              DTS:ObjectName="VacationHours"
+              DTS:DTSID="{1DFC0727-FD87-47D1-A4B8-7EDFF393E734}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="2"
+              DTS:TextQualified="True"
+              DTS:ObjectName="SickLeaveHours"
+              DTS:DTSID="{3EC4A94C-BF58-4E09-8647-FBCDD4179971}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="133"
+              DTS:TextQualified="True"
+              DTS:ObjectName="StartDate"
+              DTS:DTSID="{70D29C01-4801-48CD-8165-05FEDF45D81F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:DataType="133"
+              DTS:TextQualified="True"
+              DTS:ObjectName="EndDate"
+              DTS:DTSID="{AE6992BB-047D-4EDE-8ED8-5F098FB42975}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -850,12 +884,6 @@
                       externalMetadataColumnId="Package\TD_Fechas\CSV dim-date.Inputs[Entrada de destino de archivo plano].ExternalColumns[DateKey]"
                       lineageId="Package\TD_Fechas\DimDate.Outputs[Salida de origen de ADO NET].Columns[DateKey]" />
                     <inputColumn
-                      refId="Package\TD_Fechas\CSV dim-date.Inputs[Entrada de destino de archivo plano].Columns[FullDateAlternateKey]"
-                      cachedDataType="dbDate"
-                      cachedName="FullDateAlternateKey"
-                      externalMetadataColumnId="Package\TD_Fechas\CSV dim-date.Inputs[Entrada de destino de archivo plano].ExternalColumns[FullDateAlternateKey]"
-                      lineageId="Package\TD_Fechas\DimDate.Outputs[Salida de origen de ADO NET].Columns[FullDateAlternateKey]" />
-                    <inputColumn
                       refId="Package\TD_Fechas\CSV dim-date.Inputs[Entrada de destino de archivo plano].Columns[DayNumberOfWeek]"
                       cachedDataType="ui1"
                       cachedName="DayNumberOfWeek"
@@ -875,13 +903,6 @@
                       cachedName="SpanishDayNameOfWeek"
                       externalMetadataColumnId="Package\TD_Fechas\CSV dim-date.Inputs[Entrada de destino de archivo plano].ExternalColumns[SpanishDayNameOfWeek]"
                       lineageId="Package\TD_Fechas\DimDate.Outputs[Salida de origen de ADO NET].Columns[SpanishDayNameOfWeek]" />
-                    <inputColumn
-                      refId="Package\TD_Fechas\CSV dim-date.Inputs[Entrada de destino de archivo plano].Columns[FrenchDayNameOfWeek]"
-                      cachedDataType="wstr"
-                      cachedLength="10"
-                      cachedName="FrenchDayNameOfWeek"
-                      externalMetadataColumnId="Package\TD_Fechas\CSV dim-date.Inputs[Entrada de destino de archivo plano].ExternalColumns[FrenchDayNameOfWeek]"
-                      lineageId="Package\TD_Fechas\DimDate.Outputs[Salida de origen de ADO NET].Columns[FrenchDayNameOfWeek]" />
                     <inputColumn
                       refId="Package\TD_Fechas\CSV dim-date.Inputs[Entrada de destino de archivo plano].Columns[DayNumberOfMonth]"
                       cachedDataType="ui1"
@@ -915,19 +936,6 @@
                       externalMetadataColumnId="Package\TD_Fechas\CSV dim-date.Inputs[Entrada de destino de archivo plano].ExternalColumns[SpanishMonthName]"
                       lineageId="Package\TD_Fechas\DimDate.Outputs[Salida de origen de ADO NET].Columns[SpanishMonthName]" />
                     <inputColumn
-                      refId="Package\TD_Fechas\CSV dim-date.Inputs[Entrada de destino de archivo plano].Columns[FrenchMonthName]"
-                      cachedDataType="wstr"
-                      cachedLength="10"
-                      cachedName="FrenchMonthName"
-                      externalMetadataColumnId="Package\TD_Fechas\CSV dim-date.Inputs[Entrada de destino de archivo plano].ExternalColumns[FrenchMonthName]"
-                      lineageId="Package\TD_Fechas\DimDate.Outputs[Salida de origen de ADO NET].Columns[FrenchMonthName]" />
-                    <inputColumn
-                      refId="Package\TD_Fechas\CSV dim-date.Inputs[Entrada de destino de archivo plano].Columns[MonthNumberOfYear]"
-                      cachedDataType="ui1"
-                      cachedName="MonthNumberOfYear"
-                      externalMetadataColumnId="Package\TD_Fechas\CSV dim-date.Inputs[Entrada de destino de archivo plano].ExternalColumns[MonthNumberOfYear]"
-                      lineageId="Package\TD_Fechas\DimDate.Outputs[Salida de origen de ADO NET].Columns[MonthNumberOfYear]" />
-                    <inputColumn
                       refId="Package\TD_Fechas\CSV dim-date.Inputs[Entrada de destino de archivo plano].Columns[CalendarQuarter]"
                       cachedDataType="ui1"
                       cachedName="CalendarQuarter"
@@ -945,24 +953,6 @@
                       cachedName="CalendarSemester"
                       externalMetadataColumnId="Package\TD_Fechas\CSV dim-date.Inputs[Entrada de destino de archivo plano].ExternalColumns[CalendarSemester]"
                       lineageId="Package\TD_Fechas\DimDate.Outputs[Salida de origen de ADO NET].Columns[CalendarSemester]" />
-                    <inputColumn
-                      refId="Package\TD_Fechas\CSV dim-date.Inputs[Entrada de destino de archivo plano].Columns[FiscalQuarter]"
-                      cachedDataType="ui1"
-                      cachedName="FiscalQuarter"
-                      externalMetadataColumnId="Package\TD_Fechas\CSV dim-date.Inputs[Entrada de destino de archivo plano].ExternalColumns[FiscalQuarter]"
-                      lineageId="Package\TD_Fechas\DimDate.Outputs[Salida de origen de ADO NET].Columns[FiscalQuarter]" />
-                    <inputColumn
-                      refId="Package\TD_Fechas\CSV dim-date.Inputs[Entrada de destino de archivo plano].Columns[FiscalYear]"
-                      cachedDataType="i2"
-                      cachedName="FiscalYear"
-                      externalMetadataColumnId="Package\TD_Fechas\CSV dim-date.Inputs[Entrada de destino de archivo plano].ExternalColumns[FiscalYear]"
-                      lineageId="Package\TD_Fechas\DimDate.Outputs[Salida de origen de ADO NET].Columns[FiscalYear]" />
-                    <inputColumn
-                      refId="Package\TD_Fechas\CSV dim-date.Inputs[Entrada de destino de archivo plano].Columns[FiscalSemester]"
-                      cachedDataType="ui1"
-                      cachedName="FiscalSemester"
-                      externalMetadataColumnId="Package\TD_Fechas\CSV dim-date.Inputs[Entrada de destino de archivo plano].ExternalColumns[FiscalSemester]"
-                      lineageId="Package\TD_Fechas\DimDate.Outputs[Salida de origen de ADO NET].Columns[FiscalSemester]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -970,10 +960,6 @@
                       refId="Package\TD_Fechas\CSV dim-date.Inputs[Entrada de destino de archivo plano].ExternalColumns[DateKey]"
                       dataType="i4"
                       name="DateKey" />
-                    <externalMetadataColumn
-                      refId="Package\TD_Fechas\CSV dim-date.Inputs[Entrada de destino de archivo plano].ExternalColumns[FullDateAlternateKey]"
-                      dataType="dbDate"
-                      name="FullDateAlternateKey" />
                     <externalMetadataColumn
                       refId="Package\TD_Fechas\CSV dim-date.Inputs[Entrada de destino de archivo plano].ExternalColumns[DayNumberOfWeek]"
                       dataType="ui1"
@@ -988,11 +974,6 @@
                       dataType="wstr"
                       length="10"
                       name="SpanishDayNameOfWeek" />
-                    <externalMetadataColumn
-                      refId="Package\TD_Fechas\CSV dim-date.Inputs[Entrada de destino de archivo plano].ExternalColumns[FrenchDayNameOfWeek]"
-                      dataType="wstr"
-                      length="10"
-                      name="FrenchDayNameOfWeek" />
                     <externalMetadataColumn
                       refId="Package\TD_Fechas\CSV dim-date.Inputs[Entrada de destino de archivo plano].ExternalColumns[DayNumberOfMonth]"
                       dataType="ui1"
@@ -1016,15 +997,6 @@
                       length="10"
                       name="SpanishMonthName" />
                     <externalMetadataColumn
-                      refId="Package\TD_Fechas\CSV dim-date.Inputs[Entrada de destino de archivo plano].ExternalColumns[FrenchMonthName]"
-                      dataType="wstr"
-                      length="10"
-                      name="FrenchMonthName" />
-                    <externalMetadataColumn
-                      refId="Package\TD_Fechas\CSV dim-date.Inputs[Entrada de destino de archivo plano].ExternalColumns[MonthNumberOfYear]"
-                      dataType="ui1"
-                      name="MonthNumberOfYear" />
-                    <externalMetadataColumn
                       refId="Package\TD_Fechas\CSV dim-date.Inputs[Entrada de destino de archivo plano].ExternalColumns[CalendarQuarter]"
                       dataType="ui1"
                       name="CalendarQuarter" />
@@ -1036,18 +1008,6 @@
                       refId="Package\TD_Fechas\CSV dim-date.Inputs[Entrada de destino de archivo plano].ExternalColumns[CalendarSemester]"
                       dataType="ui1"
                       name="CalendarSemester" />
-                    <externalMetadataColumn
-                      refId="Package\TD_Fechas\CSV dim-date.Inputs[Entrada de destino de archivo plano].ExternalColumns[FiscalQuarter]"
-                      dataType="ui1"
-                      name="FiscalQuarter" />
-                    <externalMetadataColumn
-                      refId="Package\TD_Fechas\CSV dim-date.Inputs[Entrada de destino de archivo plano].ExternalColumns[FiscalYear]"
-                      dataType="i2"
-                      name="FiscalYear" />
-                    <externalMetadataColumn
-                      refId="Package\TD_Fechas\CSV dim-date.Inputs[Entrada de destino de archivo plano].ExternalColumns[FiscalSemester]"
-                      dataType="ui1"
-                      name="FiscalSemester" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -4675,6 +4635,846 @@
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
+      DTS:refId="Package\TH_RRHH"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Tarea Flujo de datos"
+      DTS:DTSID="{24A68041-6147-49F2-9726-922886DBB3EB}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="TH_RRHH"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\TH_RRHH\DimEmployee"
+              componentClassID="Microsoft.ManagedComponentHost"
+              contactInfo="Consume datos de SQL Server, OLE DB, ODBC u Oracle mediante el correspondiente proveedor de datos de .NET Framework. Se usa una instrucción Transact-SQL para definir el conjunto de resultados. Por ejemplo, se extraen datos de SQL Server con el proveedor de datos de .NET Framework para SQL Server.;Microsoft Corporation; Microsoft SQL Server; © Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;4"
+              description="Consume datos de SQL Server, OLE DB, ODBC u Oracle mediante el correspondiente proveedor de datos de .NET Framework. Se usa una instrucción Transact-SQL para definir el conjunto de resultados. Por ejemplo, se extraen datos de SQL Server con el proveedor de datos de .NET Framework para SQL Server."
+              name="DimEmployee"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Especifica la instrucción SQL utilizada por el componente para extraer datos."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
+                  name="CommandTimeout">30</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica si se debe permitir que columnas externas que no sean de cadenas se conviertan implícitamente en cadenas en las columnas de salida."
+                  name="AllowImplicitStringConversion">true</property>
+                <property
+                  dataType="System.String"
+                  description="Nombre de la tabla de la base de datos de origen."
+                  expressionType="Notify"
+                  name="TableOrViewName"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">"dbo"."DimEmployee"</property>
+                <property
+                  dataType="System.Int32"
+                  description="Especificar el modo de recuperar información de columnas externas"
+                  name="AccessMode"
+                  typeConverter="Microsoft.SqlServer.Dts.Pipeline.DataReaderSourceAdapter+EnumToStringConverter">0</property>
+                <property
+                  dataType="System.String"
+                  name="UserComponentTypeName">Microsoft.DataReaderSourceAdapter</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\TH_RRHH\DimEmployee.Connections[IDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[BDIN.AdventureworksDW2016CTP3]"
+                  connectionManagerRefId="Package.ConnectionManagers[BDIN.AdventureworksDW2016CTP3]"
+                  description="Administrador de conexiones administrado"
+                  name="IDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET]"
+                  name="Salida de origen de ADO NET">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[EmployeeKey]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[EmployeeKey]"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[EmployeeKey]"
+                      name="EmployeeKey"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[ParentEmployeeKey]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[ParentEmployeeKey]"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[ParentEmployeeKey]"
+                      name="ParentEmployeeKey"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[EmployeeNationalIDAlternateKey]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[EmployeeNationalIDAlternateKey]"
+                      length="15"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[EmployeeNationalIDAlternateKey]"
+                      name="EmployeeNationalIDAlternateKey"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[ParentEmployeeNationalIDAlternateKey]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[ParentEmployeeNationalIDAlternateKey]"
+                      length="15"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[ParentEmployeeNationalIDAlternateKey]"
+                      name="ParentEmployeeNationalIDAlternateKey"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[SalesTerritoryKey]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[SalesTerritoryKey]"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[SalesTerritoryKey]"
+                      name="SalesTerritoryKey"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[FirstName]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[FirstName]"
+                      length="50"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[FirstName]"
+                      name="FirstName"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[LastName]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[LastName]"
+                      length="50"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[LastName]"
+                      name="LastName"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[MiddleName]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[MiddleName]"
+                      length="50"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[MiddleName]"
+                      name="MiddleName"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[NameStyle]"
+                      dataType="bool"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[NameStyle]"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[NameStyle]"
+                      name="NameStyle"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[Title]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[Title]"
+                      length="50"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[Title]"
+                      name="Title"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[HireDate]"
+                      dataType="dbDate"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[HireDate]"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[HireDate]"
+                      name="HireDate"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[BirthDate]"
+                      dataType="dbDate"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[BirthDate]"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[BirthDate]"
+                      name="BirthDate"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[LoginID]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[LoginID]"
+                      length="256"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[LoginID]"
+                      name="LoginID"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[EmailAddress]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[EmailAddress]"
+                      length="50"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[EmailAddress]"
+                      name="EmailAddress"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[Phone]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[Phone]"
+                      length="25"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[Phone]"
+                      name="Phone"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[MaritalStatus]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[MaritalStatus]"
+                      length="1"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[MaritalStatus]"
+                      name="MaritalStatus"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[EmergencyContactName]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[EmergencyContactName]"
+                      length="50"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[EmergencyContactName]"
+                      name="EmergencyContactName"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[EmergencyContactPhone]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[EmergencyContactPhone]"
+                      length="25"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[EmergencyContactPhone]"
+                      name="EmergencyContactPhone"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[SalariedFlag]"
+                      dataType="bool"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[SalariedFlag]"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[SalariedFlag]"
+                      name="SalariedFlag"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[Gender]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[Gender]"
+                      length="1"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[Gender]"
+                      name="Gender"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[PayFrequency]"
+                      dataType="ui1"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[PayFrequency]"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[PayFrequency]"
+                      name="PayFrequency"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[BaseRate]"
+                      dataType="cy"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[BaseRate]"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[BaseRate]"
+                      name="BaseRate"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[VacationHours]"
+                      dataType="i2"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[VacationHours]"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[VacationHours]"
+                      name="VacationHours"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[SickLeaveHours]"
+                      dataType="i2"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[SickLeaveHours]"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[SickLeaveHours]"
+                      name="SickLeaveHours"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[CurrentFlag]"
+                      dataType="bool"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[CurrentFlag]"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[CurrentFlag]"
+                      name="CurrentFlag"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[SalesPersonFlag]"
+                      dataType="bool"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[SalesPersonFlag]"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[SalesPersonFlag]"
+                      name="SalesPersonFlag"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[DepartmentName]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[DepartmentName]"
+                      length="50"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[DepartmentName]"
+                      name="DepartmentName"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[StartDate]"
+                      dataType="dbDate"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[StartDate]"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[StartDate]"
+                      name="StartDate"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[EndDate]"
+                      dataType="dbDate"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[EndDate]"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[EndDate]"
+                      name="EndDate"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[Status]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[Status]"
+                      length="50"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[Status]"
+                      name="Status"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[EmployeePhoto]"
+                      dataType="image"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[EmployeePhoto]"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[EmployeePhoto]"
+                      name="EmployeePhoto"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[EmployeeKey]"
+                      dataType="i4"
+                      name="EmployeeKey" />
+                    <externalMetadataColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[ParentEmployeeKey]"
+                      dataType="i4"
+                      name="ParentEmployeeKey" />
+                    <externalMetadataColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[EmployeeNationalIDAlternateKey]"
+                      dataType="wstr"
+                      length="15"
+                      name="EmployeeNationalIDAlternateKey" />
+                    <externalMetadataColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[ParentEmployeeNationalIDAlternateKey]"
+                      dataType="wstr"
+                      length="15"
+                      name="ParentEmployeeNationalIDAlternateKey" />
+                    <externalMetadataColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[SalesTerritoryKey]"
+                      dataType="i4"
+                      name="SalesTerritoryKey" />
+                    <externalMetadataColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[FirstName]"
+                      dataType="wstr"
+                      length="50"
+                      name="FirstName" />
+                    <externalMetadataColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[LastName]"
+                      dataType="wstr"
+                      length="50"
+                      name="LastName" />
+                    <externalMetadataColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[MiddleName]"
+                      dataType="wstr"
+                      length="50"
+                      name="MiddleName" />
+                    <externalMetadataColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[NameStyle]"
+                      dataType="bool"
+                      name="NameStyle" />
+                    <externalMetadataColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[Title]"
+                      dataType="wstr"
+                      length="50"
+                      name="Title" />
+                    <externalMetadataColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[HireDate]"
+                      dataType="dbDate"
+                      name="HireDate" />
+                    <externalMetadataColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[BirthDate]"
+                      dataType="dbDate"
+                      name="BirthDate" />
+                    <externalMetadataColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[LoginID]"
+                      dataType="wstr"
+                      length="256"
+                      name="LoginID" />
+                    <externalMetadataColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[EmailAddress]"
+                      dataType="wstr"
+                      length="50"
+                      name="EmailAddress" />
+                    <externalMetadataColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[Phone]"
+                      dataType="wstr"
+                      length="25"
+                      name="Phone" />
+                    <externalMetadataColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[MaritalStatus]"
+                      dataType="wstr"
+                      length="1"
+                      name="MaritalStatus" />
+                    <externalMetadataColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[EmergencyContactName]"
+                      dataType="wstr"
+                      length="50"
+                      name="EmergencyContactName" />
+                    <externalMetadataColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[EmergencyContactPhone]"
+                      dataType="wstr"
+                      length="25"
+                      name="EmergencyContactPhone" />
+                    <externalMetadataColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[SalariedFlag]"
+                      dataType="bool"
+                      name="SalariedFlag" />
+                    <externalMetadataColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[Gender]"
+                      dataType="wstr"
+                      length="1"
+                      name="Gender" />
+                    <externalMetadataColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[PayFrequency]"
+                      dataType="ui1"
+                      name="PayFrequency" />
+                    <externalMetadataColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[BaseRate]"
+                      dataType="cy"
+                      name="BaseRate" />
+                    <externalMetadataColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[VacationHours]"
+                      dataType="i2"
+                      name="VacationHours" />
+                    <externalMetadataColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[SickLeaveHours]"
+                      dataType="i2"
+                      name="SickLeaveHours" />
+                    <externalMetadataColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[CurrentFlag]"
+                      dataType="bool"
+                      name="CurrentFlag" />
+                    <externalMetadataColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[SalesPersonFlag]"
+                      dataType="bool"
+                      name="SalesPersonFlag" />
+                    <externalMetadataColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[DepartmentName]"
+                      dataType="wstr"
+                      length="50"
+                      name="DepartmentName" />
+                    <externalMetadataColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[StartDate]"
+                      dataType="dbDate"
+                      name="StartDate" />
+                    <externalMetadataColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[EndDate]"
+                      dataType="dbDate"
+                      name="EndDate" />
+                    <externalMetadataColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[Status]"
+                      dataType="wstr"
+                      length="50"
+                      name="Status" />
+                    <externalMetadataColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].ExternalColumns[EmployeePhoto]"
+                      dataType="image"
+                      name="EmployeePhoto" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET]"
+                  isErrorOut="true"
+                  name="Salida de error de origen de ADO NET">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[EmployeeKey]"
+                      dataType="i4"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[EmployeeKey]"
+                      name="EmployeeKey" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[ParentEmployeeKey]"
+                      dataType="i4"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[ParentEmployeeKey]"
+                      name="ParentEmployeeKey" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[EmployeeNationalIDAlternateKey]"
+                      dataType="wstr"
+                      length="15"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[EmployeeNationalIDAlternateKey]"
+                      name="EmployeeNationalIDAlternateKey" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[ParentEmployeeNationalIDAlternateKey]"
+                      dataType="wstr"
+                      length="15"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[ParentEmployeeNationalIDAlternateKey]"
+                      name="ParentEmployeeNationalIDAlternateKey" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[SalesTerritoryKey]"
+                      dataType="i4"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[SalesTerritoryKey]"
+                      name="SalesTerritoryKey" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[FirstName]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[FirstName]"
+                      name="FirstName" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[LastName]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[LastName]"
+                      name="LastName" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[MiddleName]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[MiddleName]"
+                      name="MiddleName" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[NameStyle]"
+                      dataType="bool"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[NameStyle]"
+                      name="NameStyle" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[Title]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[Title]"
+                      name="Title" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[HireDate]"
+                      dataType="dbDate"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[HireDate]"
+                      name="HireDate" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[BirthDate]"
+                      dataType="dbDate"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[BirthDate]"
+                      name="BirthDate" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[LoginID]"
+                      dataType="wstr"
+                      length="256"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[LoginID]"
+                      name="LoginID" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[EmailAddress]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[EmailAddress]"
+                      name="EmailAddress" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[Phone]"
+                      dataType="wstr"
+                      length="25"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[Phone]"
+                      name="Phone" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[MaritalStatus]"
+                      dataType="wstr"
+                      length="1"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[MaritalStatus]"
+                      name="MaritalStatus" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[EmergencyContactName]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[EmergencyContactName]"
+                      name="EmergencyContactName" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[EmergencyContactPhone]"
+                      dataType="wstr"
+                      length="25"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[EmergencyContactPhone]"
+                      name="EmergencyContactPhone" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[SalariedFlag]"
+                      dataType="bool"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[SalariedFlag]"
+                      name="SalariedFlag" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[Gender]"
+                      dataType="wstr"
+                      length="1"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[Gender]"
+                      name="Gender" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[PayFrequency]"
+                      dataType="ui1"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[PayFrequency]"
+                      name="PayFrequency" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[BaseRate]"
+                      dataType="cy"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[BaseRate]"
+                      name="BaseRate" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[VacationHours]"
+                      dataType="i2"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[VacationHours]"
+                      name="VacationHours" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[SickLeaveHours]"
+                      dataType="i2"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[SickLeaveHours]"
+                      name="SickLeaveHours" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[CurrentFlag]"
+                      dataType="bool"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[CurrentFlag]"
+                      name="CurrentFlag" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[SalesPersonFlag]"
+                      dataType="bool"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[SalesPersonFlag]"
+                      name="SalesPersonFlag" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[DepartmentName]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[DepartmentName]"
+                      name="DepartmentName" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[StartDate]"
+                      dataType="dbDate"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[StartDate]"
+                      name="StartDate" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[EndDate]"
+                      dataType="dbDate"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[EndDate]"
+                      name="EndDate" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[Status]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[Status]"
+                      name="Status" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[EmployeePhoto]"
+                      dataType="image"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[EmployeePhoto]"
+                      name="EmployeePhoto" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de error de origen de ADO NET].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\TH_RRHH\th-RRHH"
+              componentClassID="Microsoft.FlatFileDestination"
+              contactInfo="Destino de archivo plano;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;1"
+              description="Destino de archivo plano"
+              localeId="3082"
+              name="th-RRHH">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Especifica si los datos sobrescriben el archivo de destino o se anexan al mismo."
+                  name="Overwrite">true</property>
+                <property
+                  dataType="System.Null"
+                  description="Especifica el texto para escribir en el archivo de destino antes de escribir ningún dato."
+                  expressionType="Notify"
+                  name="Header" />
+                <property
+                  dataType="System.Boolean"
+                  description="Cuando el calificador de texto está habilitado, especifica si este contendrá secuencias de escape o no en los datos escritos en el archivo de destino."
+                  name="EscapeQualifier">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\TH_RRHH\th-RRHH.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[TH_RRHH]"
+                  connectionManagerRefId="Package.ConnectionManagers[TH_RRHH]"
+                  name="FlatFileConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\TH_RRHH\th-RRHH.Inputs[Entrada de destino de archivo plano]"
+                  hasSideEffects="true"
+                  name="Entrada de destino de archivo plano">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\TH_RRHH\th-RRHH.Inputs[Entrada de destino de archivo plano].Columns[EmployeeKey]"
+                      cachedDataType="i4"
+                      cachedName="EmployeeKey"
+                      externalMetadataColumnId="Package\TH_RRHH\th-RRHH.Inputs[Entrada de destino de archivo plano].ExternalColumns[EmployeeKey]"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[EmployeeKey]" />
+                    <inputColumn
+                      refId="Package\TH_RRHH\th-RRHH.Inputs[Entrada de destino de archivo plano].Columns[SalesTerritoryKey]"
+                      cachedDataType="i4"
+                      cachedName="SalesTerritoryKey"
+                      externalMetadataColumnId="Package\TH_RRHH\th-RRHH.Inputs[Entrada de destino de archivo plano].ExternalColumns[SalesTerritoryKey]"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[SalesTerritoryKey]" />
+                    <inputColumn
+                      refId="Package\TH_RRHH\th-RRHH.Inputs[Entrada de destino de archivo plano].Columns[BirthDate]"
+                      cachedDataType="dbDate"
+                      cachedName="BirthDate"
+                      externalMetadataColumnId="Package\TH_RRHH\th-RRHH.Inputs[Entrada de destino de archivo plano].ExternalColumns[BirthDate]"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[BirthDate]" />
+                    <inputColumn
+                      refId="Package\TH_RRHH\th-RRHH.Inputs[Entrada de destino de archivo plano].Columns[Gender]"
+                      cachedDataType="wstr"
+                      cachedLength="1"
+                      cachedName="Gender"
+                      externalMetadataColumnId="Package\TH_RRHH\th-RRHH.Inputs[Entrada de destino de archivo plano].ExternalColumns[Gender]"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[Gender]" />
+                    <inputColumn
+                      refId="Package\TH_RRHH\th-RRHH.Inputs[Entrada de destino de archivo plano].Columns[BaseRate]"
+                      cachedDataType="cy"
+                      cachedName="BaseRate"
+                      externalMetadataColumnId="Package\TH_RRHH\th-RRHH.Inputs[Entrada de destino de archivo plano].ExternalColumns[BaseRate]"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[BaseRate]" />
+                    <inputColumn
+                      refId="Package\TH_RRHH\th-RRHH.Inputs[Entrada de destino de archivo plano].Columns[VacationHours]"
+                      cachedDataType="i2"
+                      cachedName="VacationHours"
+                      externalMetadataColumnId="Package\TH_RRHH\th-RRHH.Inputs[Entrada de destino de archivo plano].ExternalColumns[VacationHours]"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[VacationHours]" />
+                    <inputColumn
+                      refId="Package\TH_RRHH\th-RRHH.Inputs[Entrada de destino de archivo plano].Columns[SickLeaveHours]"
+                      cachedDataType="i2"
+                      cachedName="SickLeaveHours"
+                      externalMetadataColumnId="Package\TH_RRHH\th-RRHH.Inputs[Entrada de destino de archivo plano].ExternalColumns[SickLeaveHours]"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[SickLeaveHours]" />
+                    <inputColumn
+                      refId="Package\TH_RRHH\th-RRHH.Inputs[Entrada de destino de archivo plano].Columns[StartDate]"
+                      cachedDataType="dbDate"
+                      cachedName="StartDate"
+                      externalMetadataColumnId="Package\TH_RRHH\th-RRHH.Inputs[Entrada de destino de archivo plano].ExternalColumns[StartDate]"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[StartDate]" />
+                    <inputColumn
+                      refId="Package\TH_RRHH\th-RRHH.Inputs[Entrada de destino de archivo plano].Columns[EndDate]"
+                      cachedDataType="dbDate"
+                      cachedName="EndDate"
+                      externalMetadataColumnId="Package\TH_RRHH\th-RRHH.Inputs[Entrada de destino de archivo plano].ExternalColumns[EndDate]"
+                      lineageId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET].Columns[EndDate]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\TH_RRHH\th-RRHH.Inputs[Entrada de destino de archivo plano].ExternalColumns[EmployeeKey]"
+                      dataType="i4"
+                      name="EmployeeKey" />
+                    <externalMetadataColumn
+                      refId="Package\TH_RRHH\th-RRHH.Inputs[Entrada de destino de archivo plano].ExternalColumns[SalesTerritoryKey]"
+                      dataType="i4"
+                      name="SalesTerritoryKey" />
+                    <externalMetadataColumn
+                      refId="Package\TH_RRHH\th-RRHH.Inputs[Entrada de destino de archivo plano].ExternalColumns[BirthDate]"
+                      dataType="dbDate"
+                      name="BirthDate" />
+                    <externalMetadataColumn
+                      refId="Package\TH_RRHH\th-RRHH.Inputs[Entrada de destino de archivo plano].ExternalColumns[Gender]"
+                      dataType="wstr"
+                      length="1"
+                      name="Gender" />
+                    <externalMetadataColumn
+                      refId="Package\TH_RRHH\th-RRHH.Inputs[Entrada de destino de archivo plano].ExternalColumns[BaseRate]"
+                      dataType="cy"
+                      name="BaseRate" />
+                    <externalMetadataColumn
+                      refId="Package\TH_RRHH\th-RRHH.Inputs[Entrada de destino de archivo plano].ExternalColumns[VacationHours]"
+                      dataType="i2"
+                      name="VacationHours" />
+                    <externalMetadataColumn
+                      refId="Package\TH_RRHH\th-RRHH.Inputs[Entrada de destino de archivo plano].ExternalColumns[SickLeaveHours]"
+                      dataType="i2"
+                      name="SickLeaveHours" />
+                    <externalMetadataColumn
+                      refId="Package\TH_RRHH\th-RRHH.Inputs[Entrada de destino de archivo plano].ExternalColumns[StartDate]"
+                      dataType="dbDate"
+                      name="StartDate" />
+                    <externalMetadataColumn
+                      refId="Package\TH_RRHH\th-RRHH.Inputs[Entrada de destino de archivo plano].ExternalColumns[EndDate]"
+                      dataType="dbDate"
+                      name="EndDate" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\TH_RRHH.Paths[Salida de origen de ADO NET]"
+              endId="Package\TH_RRHH\th-RRHH.Inputs[Entrada de destino de archivo plano]"
+              name="Salida de origen de ADO NET"
+              startId="Package\TH_RRHH\DimEmployee.Outputs[Salida de origen de ADO NET]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
       DTS:refId="Package\TH_Ventas_comerciales"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tarea Flujo de datos"
@@ -6281,7 +7081,7 @@
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
         <NodeLayout
           Size="191,42"
           Id="Package\TH_Ventas_comerciales"
@@ -6298,6 +7098,10 @@
           Size="145,42"
           Id="Package\TD_Productos"
           TopLeft="601,213" />
+        <NodeLayout
+          Size="126,42"
+          Id="Package\TH_RRHH"
+          TopLeft="310,290" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
@@ -6683,25 +7487,25 @@
         <NodeLayout
           Size="133,42"
           Id="Package\TD_Productos\DimProduct"
-          TopLeft="63,9" />
+          TopLeft="63,8" />
         <NodeLayout
           Size="158,42"
           Id="Package\TD_Productos\CSV dim-product"
           TopLeft="51,90" />
         <EdgeLayout
           Id="Package\TD_Productos.Paths[Salida de origen de ADO NET]"
-          TopLeft="129.75,51">
+          TopLeft="129.75,50">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,39"
+              EndConnector="0,40"
               Start="0,0"
-              End="0,31.5">
+              End="0,32.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,31.5" />
+                    End="0,32.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -6715,6 +7519,52 @@
   </TaskHost>
   <PipelineComponentMetadata
     design-time-name="Package\TD_Productos\DimProduct">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\TH_RRHH">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="143,42"
+          Id="Package\TH_RRHH\DimEmployee"
+          TopLeft="59,20" />
+        <NodeLayout
+          Size="120,42"
+          Id="Package\TH_RRHH\th-RRHH"
+          TopLeft="73,118" />
+        <EdgeLayout
+          Id="Package\TH_RRHH.Paths[Salida de origen de ADO NET]"
+          TopLeft="131.75,62">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,56"
+              Start="0,0"
+              End="0,48.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,48.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\TH_RRHH\DimEmployee">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>

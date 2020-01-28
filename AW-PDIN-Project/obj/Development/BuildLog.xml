@@ -2,13 +2,13 @@
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
     <Name>AW-PDIN-Project</Name>
-    <LastWriteTime>2020-01-28T06:44:34.0919325Z</LastWriteTime>
+    <LastWriteTime>2020-01-28T07:49:51.1093189Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
       <Name>ETL.dtsx</Name>
-      <LastWriteTime>2020-01-28T06:44:33.9779443Z</LastWriteTime>
+      <LastWriteTime>2020-01-28T07:49:46.3053665Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>
